@@ -1,0 +1,1 @@
+https://localhost:7004/swagger/index.html?urls.primaryName=1.0
