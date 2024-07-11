@@ -3,9 +3,9 @@ services:
   csharp:
     #docker run -it -v ${PWD}:/work -w /work -p 5001:5001 danidevdock/csharp:1.0.0 /bin/sh
     container_name: csharp_CleanArch
-    image: danidevdock/csharp:6.0
     build:
-      context: ./c#
+      context: .
+      dockerfile: Dockerfile
       target: debug
       network: host
     working_dir: /work
@@ -13,7 +13,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - ./c#/src/:/work
+      - ./src/:/work
     ports:
       - 7004:7004
       - 7002:7002
