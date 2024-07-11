@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  csharp:
+  csharpApp:
     #docker run -it -v ${PWD}:/work -w /work -p 5001:5001 danidevdock/csharp:1.0.0 /bin/sh
     container_name: csharp_CleanArch
     build:

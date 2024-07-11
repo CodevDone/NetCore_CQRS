@@ -3,7 +3,7 @@
 {
 	"name": ".NET (C#), Node (TypeScript), Oracle",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
+	"service": "csharpApp",
 	"workspaceFolder": "/work/${localWorkspaceFolderBasename}",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
